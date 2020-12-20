@@ -1,7 +1,7 @@
 PIAIC JS Assignments
 
 Contents:
-Chapter -1 2 3
+Assignment ch_1_2_3 for Chapter -1 2 3
 
 //Chapter -5 6 7
 //Chapter -9
