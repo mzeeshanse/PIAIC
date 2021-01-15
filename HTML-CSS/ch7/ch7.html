@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Chapter 7
+    </title>
+</head>
+
+<body>
+<h1>Chapter # 7 - Forms</h1>
+<fieldset>    
+    <legend>Your Details:</legend>
+    <table>
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" /></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="text" /></td>
+        </tr>
+    </table>
+    
+</fieldset>
+
+<fieldset>    
+    <legend>Your Review:</legend>
+    <table cellpadding="5" >
+        <tr>
+            <td><label>How did you hear about us?</label><select name="opt" id="opt">
+                <option value="google">Google</option>
+                <option value="abc">Abc</option>
+                <option value="xyz">Xyz</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Would you visit again?</label></td> 
+        </tr>
+        <tr>                       
+            <td>
+                <input name="visit" type="radio"/><label>Yes</label>
+                <input name="visit" type="radio"/><label>No</label>
+                <input name="visit" type="radio"/><label>Maybe</label>
+            </td>
+        </tr>
+      
+
+        <tr>
+            <td><label>Comments: </label></td>              
+        </tr>
+        <tr>          
+            <td colspan="2"><textarea rows="4" cols="50"></textarea></td>            
+        </tr>
+
+        <tr>          
+            <td><input type="checkbox">Sign me up for email updates </td>            
+        </tr>
+
+        <tr>          
+            <td><input type="button" value="Submit review"></td>            
+        </tr>
+    </table>
+    
+</fieldset>
+
+</body>
+
+</html>
