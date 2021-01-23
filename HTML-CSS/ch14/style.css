@@ -1,0 +1,124 @@
+.button {
+    
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+  .button1 {
+    background-color: #3a3737; /* Black */
+    border-radius: 50%;
+    width: 25px;
+}
+  .button2 {
+    background-color: #09a504; /* Black */
+    border-radius: 5%;
+   
+}
+
+.button3 {
+  background-color: #ffda07; /* Black */
+  border-radius: 5%;
+  padding: 10px 20px;
+box-shadow:  2px 2px 5px rgb(122, 119, 119);
+color: black;
+ 
+}
+
+.text1{
+   border: none;
+   color: white;
+   padding: 5px;
+   /* text-align: center; */
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+    
+}
+
+.footerdiv{
+background-color:rgb(115, 187, 0);
+}
+
+.vl {
+    border-left: 2px solid rgb(246, 248, 246);
+    /* height: 500px; */
+  }
+
+  .footertext{
+      color: white !important;
+  }
+
+  h5{
+      color: white;
+  }
+
+  .divheight{
+
+    height: 100px;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+
+  /* .col {
+    flex: 1 0 0%;
+} */
+.adv_icon2 {
+  background-color: rgba(228, 227, 227, 0.795);
+  height: 180px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgb(236, 11, 11);
+}
+.pics {
+  margin-top: -12px;
+}
+.pics1 {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: -19px;
+  background-color: rgba(252, 194, 5, 0.61);
+}
+.pics3 {
+  position: absolute;
+  width: 150px;
+  align-items: center;
+  margin-top: -170px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.link{
+  color: #09a504;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #000000;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  font-size: 30px;
+  text-align: center;
+}
