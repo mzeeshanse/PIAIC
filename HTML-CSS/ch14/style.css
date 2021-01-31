@@ -41,6 +41,26 @@ color: black;
  
 }
 
+.button5 {
+  border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  background-color: #6264f5; /* Black */
+  border-radius: 5%;
+  padding: 10px 20px;
+box-shadow:  2px 2px 5px rgb(122, 119, 119);
+color: black;
+position: absolute;
+margin-top: 280px;
+margin-left: -45px
+}
+
 .text1{
    border: none;
    color: white;
@@ -213,3 +233,12 @@ td{
   margin-left: 85px;  
   text-align: center;
 } */
+
+.packages{
+  border-color: #303131; 
+  border-style: solid;
+  width: 250px; 
+  height: 300px; 
+  background: rgb(255, 255, 255);  
+  text-align: center;
+}
