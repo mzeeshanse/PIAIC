@@ -1,0 +1,46 @@
+<html>
+    <script>
+        var courses = [];
+        var course1 = prompt('Course 1', "Computer");
+        var course2 = prompt('Course 2', "English");
+        var course3 = prompt('Course 3', "Maths");
+        var course4 = prompt('Course 4', "Science");
+        var course5 = prompt('Course 5', "History");
+
+        courses.push(course1);
+        courses.push(course2);
+        courses.push(course3);
+        courses.push(course4);
+        courses.push(course5);
+
+        alert('Course List : ' + courses);
+
+        var course1new = prompt(course1, course1);
+        var course2new = prompt(course2, course2);
+        var course3new = prompt(course3, course3);
+        var course4new = prompt(course4, course4);
+        var course5new = prompt(course5, course5);
+        
+        if(course1 != course1new){
+            courses.splice(0,1,course1new);
+        }  
+        if(course2 != course2new){
+            courses.splice(1,1,course2new);
+        }   
+        if(course3 != course3new){
+            courses.splice(2,1,course3new);
+        }   
+        if(course4 != course4new){
+            courses.splice(3,1,course4new);
+        }   
+        if(course5 != course5new){
+            courses.splice(4,1,course5new);
+        }   
+
+        alert('New Course List : ' + courses);
+
+    </script>
+    <body>
+        <h1>JS chapter 15 16 17</h1>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <script>
+        var course1 = prompt('Course 1 = ');
+        var course2 = prompt('Course 2 = ');
+        var course3 = prompt('Course 3 = ');
+        var course4 = prompt('Course 4 = ');
+        var course5 = prompt('Course 5 = ');
+        var totalMarks = prompt('Total Marks = ');
+        var obtainedMarks = +course1 + +course2 + +course3 + +course4 + +course5;
+        var percentage = (obtainedMarks * 100 / totalMarks);
+        var alertmessage = 
+        'Course 1 = ' + course1 + '\n' + 
+        'Course 2 = ' + course2 + '\n' + 
+        'Course 3 = ' + course3 + '\n' + 
+        'Course 4 = ' + course4 + '\n' + 
+        'Course 5 = ' + course5 + '\n' + 
+        'Obtained Marks = ' + obtainedMarks + '\n' +
+        'Total Marks = ' + totalMarks + '\n' + 
+        'Percentage = ' + percentage + '%';
+        var message = 
+        'Course 1 = ' + course1 + '<br>' + 
+        'Course 2 = ' + course2 + '<br>' + 
+        'Course 3 = ' + course3 + '<br>' + 
+        'Course 4 = ' + course4 + '<br>' + 
+        'Course 5 = ' + course5 + '<br>' + 
+        'Obtained Marks = ' + obtainedMarks + '<br>' +
+        'Total Marks = ' + totalMarks + '<br>' + 
+        'Percentage = ' + percentage + '%';
+        alert(alertmessage);
+        document.write("<h1>Percentage Calculator</h1><h4>" + message + "</h4>");
+
+    </script>
+    </html>

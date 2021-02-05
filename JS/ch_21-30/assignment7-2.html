@@ -1,0 +1,23 @@
+<html>
+<script>
+    var inputValue = prompt('Enter text','cloUd naTive computinG');
+    
+    var allSmall = inputValue.toLowerCase();
+    var list = allSmall.split(' ');
+    var camelCase = '';
+    for(var i = 0; i < list.length; i++){
+        list[i] = list[i].slice(0,1).toUpperCase() + list[i].slice(1,list[i].length); 
+        camelCase += list[i];
+        if(i < list.length-1){
+            camelCase += ' ';
+        }
+    }
+    alert(camelCase);
+    console.log(camelCase);
+</script>
+
+<body>
+    <h1>JS chapter 21 to 30</h1>
+</body>
+
+</html>

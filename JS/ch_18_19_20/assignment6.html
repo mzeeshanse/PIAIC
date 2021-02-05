@@ -1,0 +1,29 @@
+<html>
+<script>
+    var courses = [];
+
+    var courses = [];
+    for (var i = 0; i <= 4; i++) {
+        var course = prompt('Course ' + (i + 1), "Computer");
+        courses.push(course);
+    }
+
+    alert('Course List : ' + courses);
+
+    for (var i = 0; i <= 4; i++) {
+        var coursenew = prompt('Course ' + (i + 1) + ' = ' + courses[i], courses[i]);
+        if (courses[i] != coursenew) {
+            courses.splice(i, 1, coursenew);
+        }
+    }
+
+
+    alert('New Course List : ' + courses);
+
+</script>
+
+<body>
+    <h1>JS chapter 18 19 20</h1>
+</body>
+
+</html>

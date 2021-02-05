@@ -1,0 +1,50 @@
+<html>
+    <script>
+        var num1 = prompt('num1  is:');
+        var num2 = prompt('num12 is:');
+        var sign =  prompt('sign is:');
+        var result;
+        if(num1 != undefined && Number(num1) != NaN && num2 != undefined && Number(num2) != NaN && sign != undefined)
+        {
+            if(sign == '+')
+            {
+                result = +num1 + +num2;
+            }
+            else if(sign == '-')
+            {
+                result = +num1 - +num2;
+            }
+            else if(sign == '*')
+            {
+                result = +num1 * +num2;
+            }
+            else if(sign == '/')
+            {
+                result = +num1 / +num2;
+            }
+            else if(sign == '%')
+            {
+                result = +num1 % +num2;
+            }
+            else 
+            {
+                result = 'Incorredt sign [' + sign + ']';                          
+            }
+
+            alert('"' + num1 +'" ' + sign + ' "' + num2 + '"' +  ' = ' + result);
+        }
+        else{
+            if(num1 != undefined)
+                alert('num1 is incorrect [' + num1 + ']'); 
+            if(num2 != undefined)
+                alert('num2 is incorrect [' + num2 + ']'); 
+            if(sign != undefined)
+                alert('sign is incorrect [' + sign + ']'); 
+        }
+       
+
+    </script>
+    <body>
+        <h1>Calculator</h1>
+    </body>
+</html>
