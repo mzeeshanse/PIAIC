@@ -1,7 +1,21 @@
+JS:
 https://github.com/Ameen-Alam/PIAIC-JS-Assignments
 
+Link to submit:
+https://forms.gle/zuHdWbQ4rTG4ibpW9
+
+
+
+Advanced JS:
+https://github.com/Ameen-Alam/PIAIC-Advance-JS-Assignments
+
+
+
+HTML & CSS
 https://github.com/Ameen-Alam/PIAIC-HTML-CSS-Assignments
 
+
+Link to submit:
 https://docs.google.com/forms/d/e/1FAIpQLScqKGuZTpUcb-Rr5Na4MiGIp6whGgwQ24ANECXYIDvK2j7m1g/viewform
 
 
