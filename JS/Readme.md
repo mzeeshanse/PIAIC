@@ -1,14 +1,19 @@
 PIAIC JS Assignments
 
 Contents:
-Assignment ch_1_2_3 for Chapter -1 2 3
-
-//Chapter -5 6 7
-//Chapter -9
-//Chapter -10 to 14
-//Chapter -15 16 17
-//Chapter -18 19 20
-//Chapter -21 to 30
-//Chapter -31 to 34
-//Chapter -35 to 38
-//Chapter -39 to 42
+    Chapter 1, 2, 3
+    Chapter 5, 6, 7
+    Chapter 9
+    Chapter 10, 11, 12, 13, 14
+    Assignment 1
+    Assignment 2
+    Chapter 15, 16, 17
+    Chapter 18, 19, 20
+    Chapter 21 - 30
+    Assignment 1
+    Assignment 2
+    Chapter 30-34
+    Chapter 35 - 38
+    Assignment 1
+    Assignment 2
+    Chapter 30-34
