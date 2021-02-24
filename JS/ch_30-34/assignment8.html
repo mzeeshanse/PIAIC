@@ -21,41 +21,18 @@
         else if(dtNow.getHours() < 23)
         welcomeMessage = "Good Evening";
         else 
-        welcomeMessage = "Good Night";
-        
+        welcomeMessage = "Good Night";        
     
         console.log("Hello " + name + ", " + welcomeMessage);
         debugger
-        console.log("Your DOB is " + dtDob.toLocaleDateString());     
-    
-        
-    debugger
-    
-        // var years = dtNow.getFullYear() - dtDob.getFullYear();
-        // var months = dtNow.getMonth() - dtDob.getMonth();
-        // var days = dtNow.getDate() - dtDob.getDate();
-        
-        // if(months < 0){
-        //     years --;
-        //     months = 12 - months;
-        // }
-    
-        // if(days < 0){
-        //     days = 30 - months;
-        // }
-    
-    
-    
-    
-    
+        console.log("Your DOB is " + dtDob.toLocaleDateString()); 
     
         var msToday = dtNow.getTime();
         var msDob = dtDob.getTime();
     
         var msDiff = msToday - msDob;
         var dDiff = msDiff / (1000 * 60 * 60 * 24);
-        //var days = Math.floor(dDiff);
-        
+       
         var tempYear = msDiff / (1000 * 60 * 60 * 24 * 365.25)
         var years = Math.floor(tempYear);
         
@@ -79,28 +56,6 @@
         
         var h2 = document.querySelector("h2");
         h2.innerText = birthDayText;
-       
-        // var rem = (rem * 12) - months; 
-        // var days = Math.floor(rem * 30);
-        // rem = (rem * 30)  - days;
-        // var hours = Math.floor(rem * 24);
-        // rem = (rem*24) - rem;
-        // var minutes = Math.floor(rem * 60);     
-        // rem = (rem*60) - rem;
-        // var seconds = Math.floor(rem * 60);
-        // rem = (rem*60) - rem;
-        
-        // console.log('total msDiff '+ msDiff);
-        // console.log('total dDiff '+ dDiff);
-        
-        // console.log('total days '+ days);
-        
-    //var years = 
-    
-    
-    
-    
-    
     </script>
     
 </body>

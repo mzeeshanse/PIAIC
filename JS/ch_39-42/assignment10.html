@@ -1,0 +1,34 @@
+<html>
+
+<body>
+    <h1>JS chapter 39 to 42</h1>
+    <h2></h2>
+
+    <script>
+        var course1 = prompt('Course 1:');
+        var course2 = prompt('Course 2:');
+        var course3 = prompt('Course 3:');
+        var course4 = prompt('Course 4:');
+        var course5 = prompt('Course 5:');
+        var total = prompt('Total Marks:')
+debugger
+        var obtained = +course1 + +course2 + +course3 + +course4 + +course5
+        var percentage = (obtained / +total) * 100;
+
+        var result;
+        switch(true){
+            case percentage >= 90 && percentage <= 100: result = "Grade A+"; break;
+            case percentage >= 75 && percentage < 90: result = "Grade A"; break;
+            case percentage >= 60 && percentage < 75: result = "Grade B"; break;
+            case percentage >= 45 && percentage < 60: result = "Grade C"; break;
+            case percentage >= 30 && percentage < 45: result = "Grade D"; break;
+            case percentage >= 0 && percentage < 30: result = "Grade F"; break;
+            default : result = "Grade F";
+        }  
+
+        alert(result);
+    </script>
+    
+</body>
+
+</html>

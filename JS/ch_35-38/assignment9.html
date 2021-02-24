@@ -1,0 +1,28 @@
+<html>
+<script>
+    var inputValue = prompt('Enter text', 'cloUd naTive computinG');
+    function CamelCase(input) {
+        var camelCase = '';
+        var allSmall = input.toLowerCase();
+        var list = allSmall.split(' ');
+        for (var i = 0; i < list.length; i++) {
+            list[i] = list[i].slice(0, 1).toUpperCase() + list[i].slice(1, list[i].length);
+            camelCase += list[i];
+            if (i < list.length - 1) {
+                camelCase += ' ';
+            }
+        }
+        return camelCase;
+    }
+
+    var result = CamelCase(inputValue);
+
+    alert(result);
+    console.log(result);
+</script>
+
+<body>
+    <h1>JS chapter 35 to 38</h1>
+</body>
+
+</html>
