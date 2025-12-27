@@ -1,0 +1,9 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+numpy>=1.26.0
+opencv-python>=4.9.0
+pillow>=10.4.0
+ultralytics>=8.3.0
+# PaddleOCR is used for Arabic + Latin OCR. It will pull a compatible paddlepaddle wheel.
+paddleocr>=2.7.0
